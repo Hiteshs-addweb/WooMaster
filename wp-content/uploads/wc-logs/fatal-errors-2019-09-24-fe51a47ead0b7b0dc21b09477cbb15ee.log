@@ -1,0 +1,6 @@
+2019-09-24T07:11:46+00:00 CRITICAL Cannot redeclare addOrderItemMeta() (previously declared in /var/www/html/html/woocommerce-task/wp-content/plugins/my-custom-plugin.php:63) in /var/www/html/html/woocommerce-task/wp-content/plugins/custom-plugin/plugin-add-field-meta.php on line 63
+
+2019-09-24T07:11:47+00:00 CRITICAL Cannot redeclare addOrderItemMeta() (previously declared in /var/www/html/html/woocommerce-task/wp-content/plugins/my-custom-plugin.php:63) in /var/www/html/html/woocommerce-task/wp-content/plugins/custom-plugin/plugin-add-field-meta.php on line 63
+
+2019-09-24T07:11:47+00:00 CRITICAL Cannot redeclare addOrderItemMeta() (previously declared in /var/www/html/html/woocommerce-task/wp-content/plugins/my-custom-plugin.php:63) in /var/www/html/html/woocommerce-task/wp-content/plugins/custom-plugin/plugin-add-field-meta.php on line 63
+

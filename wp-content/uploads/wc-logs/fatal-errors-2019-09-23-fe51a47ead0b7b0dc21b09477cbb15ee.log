@@ -1,0 +1,12 @@
+2019-09-23T08:09:55+00:00 CRITICAL Uncaught Error: Class 'MyNewWidget' not found in /var/www/html/html/woocommerce-task/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/html/woocommerce-task/wp-includes/widgets.php(115): WP_Widget_Factory->register('MyNewWidget')
+#1 /var/www/html/html/woocommerce-task/wp-content/plugins/my-custom-plugin.php(11): register_widget('MyNewWidget')
+#2 /var/www/html/html/woocommerce-task/wp-includes/class-wp-hook.php(286): myplugin_register_widgets('')
+#3 /var/www/html/html/woocommerce-task/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/html/woocommerce-task/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/html/woocommerce-task/wp-includes/widgets.php(1715): do_action('widgets_init')
+#6 /var/www/html/html/woocommerce-task/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/html/woocommerce-task/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/html/woocommerce-task/wp-inc in /var/www/html/html/woocommerce-task/wp-includes/class-wp-widget-factory.php on line 100
+
